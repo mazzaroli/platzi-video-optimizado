@@ -210,7 +210,7 @@ footer a {
   transform: scale(1.5);
 }
 /* Move subsecuent item */
-.carousel-item:hover + .carousel-item {
+.carousel-item:hover ~ .carousel-item {
   transform: translateX(100px);
 }
 
